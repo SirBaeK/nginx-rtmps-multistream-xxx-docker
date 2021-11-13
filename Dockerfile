@@ -25,6 +25,9 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log && \
 #    ln -sf /dev/stdout /var/log/stunnel4/stunnel.log
 
 
+ENV CHATURBATE_URL rtmp://live.stream.highwebmedia.com/live-origin
+ENV CHATURBATE_KEY ""
+
 #CAM4
 ENV CAM4_URL rtmp://origin.cam4.com/cam4-origin-live
 ENV CAM4_KEY ""
