@@ -24,6 +24,10 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log && \
     ln -sf /dev/stderr /var/log/nginx/error.log
 #    ln -sf /dev/stdout /var/log/stunnel4/stunnel.log
 
+#BONGAMODELS
+ENV BONGAMODELS_URL rtmp://origin.bcvidorigin.com:1934/live
+ENV BONGAMODELS_KEY ""
+
 
 ENV CHATURBATE_URL rtmp://live.stream.highwebmedia.com/live-origin
 ENV CHATURBATE_KEY ""
