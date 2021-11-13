@@ -23,7 +23,12 @@ EXPOSE 1935
 RUN ln -sf /dev/stdout /var/log/nginx/access.log && \
     ln -sf /dev/stderr /var/log/nginx/error.log
 #    ln -sf /dev/stdout /var/log/stunnel4/stunnel.log
-    
+
+
+#CAM4
+ENV CAM4_URL rtmp://origin.cam4.com/cam4-origin-live
+ENV CAM4_KEY ""
+
 #Setup Streaming Services Details
 #Facebook
 ENV FACEBOOK_URL rtmp://localhost:19350/rtmp/
