@@ -1,12 +1,12 @@
 # nginx-rtmps-docker
+All this is enabled by goatie999 and his work nginx-rtmps-multistream-docker
 
-Docker container to enable local multi-streaming to different services via RTMP and RTMPS
 
-As of release **v0.2.7** / **latest**, this container is set to utilise these services, **[Restream.io](https://restream.io/?ref=qQ6BR)**, **[Facebook Live](https://www.facebook.com/live/producer)**, **[YouTube](https://youtube.com)**, **[Twitch](https://twitch.tv)** and **[Mixcloud](https://www.mixcloud.com/)**.  
 
-This container makes use of _stunnel4_ in order to work with Facebook's specification that only supports RTMPS.  Stunnel4 is built as an internal service within this container to make this function correctly.
+Docker container to enable local multi-streaming to different XXX services via RTMP and RTMPS
 
-I'm setting this up with the intention that people host the container on a Synology NAS but it also runs just fine from other Docker setups (i.e. I've tested using Docker on OSX).
+
+'m setting this up with the intention that people host the container on a Synology NAS but it also runs just fine from other Docker setups (i.e. I've tested using Docker on OSX).
 
 You don't have to use all of the providers in this setup, any that you leave the stream key value blank for will be disabled when the container starts.
 
