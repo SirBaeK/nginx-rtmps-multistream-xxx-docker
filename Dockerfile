@@ -24,6 +24,12 @@ RUN ln -sf /dev/stdout /var/log/nginx/access.log && \
     ln -sf /dev/stderr /var/log/nginx/error.log
 #    ln -sf /dev/stdout /var/log/stunnel4/stunnel.log
 
+
+#STRIPCHAT
+ENV STRIPCHAT_URL rtmp://s-sd.stripst.com/ext
+ENV STRIPCHAT_KEY ""
+
+
 #BONGAMODELS
 ENV BONGAMODELS_URL rtmp://origin.bcvidorigin.com:1934/live
 ENV BONGAMODELS_KEY ""
